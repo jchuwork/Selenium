@@ -33,7 +33,7 @@ public class CPStagingLoggingInWithEmail {
 	@Before
 	public void setUp() throws Exception {
 		
-        System.setProperty("webdriver.gecko.driver", "/Users/portia/Documents/workspace/Webdriver/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/Users/jchuwork/Documents/workspace/Webdriver/geckodriver");
 		
 		
 		ProfilesIni profile = new ProfilesIni();  
