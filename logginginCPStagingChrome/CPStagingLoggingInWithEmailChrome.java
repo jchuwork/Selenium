@@ -32,10 +32,10 @@ public class CPStagingLoggingInWithEmailChrome {
 	
 	@Before
 	public void setUp() throws Exception {
-        System.setProperty("webdriver.chrome.driver", "/Users/portia/Documents/workspace/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/jchuwork/Documents/workspace/chromedriver");
 	    
 	    ChromeOptions options = new ChromeOptions(); 
-	    options.addArguments("user-data-dir=/Users/portia/Library/Application Support/Google/Chrome/SeleniumProfile");
+	    options.addArguments("user-data-dir=/Users/jchuwork/Library/Application Support/Google/Chrome/SeleniumProfile");
 	    driver = new ChromeDriver(options);
 	 
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
