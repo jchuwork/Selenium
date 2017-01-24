@@ -57,7 +57,7 @@ public class ChromeCreateSoftwareProject {
 		
 		driver.get("https://staging.devpost.com/software");
 		driver.findElement(By.id("add-your-software")).click();
-		driver.findElement(By.id("software_name")).sendKeys(timeStamp + "  Automated Selenium Project - FF");
+		driver.findElement(By.id("software_name")).sendKeys(timeStamp + "  Automated Selenium Project - Chrome");
 		driver.findElement(By.id("software_name_save_button")).click();
 		driver.getTitle();
 		System.out.println(driver.getTitle());
